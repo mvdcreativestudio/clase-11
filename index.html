@@ -1,12 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVD Creative Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img class="nav-logo" src="./assets/img/MVD-CreativeStudio_IsoWhite.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#top">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quienes-somos">¿Quiénes Somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/area-clientes.html">Área de Clientes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <header  id="top">
+      <div class="row d-flex align-items-center p-5 pt-0 contenedor-header" >
+        <div class="col-12 col-xl-7 text-center ">
+          <h1 class="display-5 fw-bold">Brindamos soluciones digitales</h1>
+          <div class="mx-auto">
+            <p class="lead">a todo tipo de clientes: <b>Personas, Empresas, Pymes.</b></p>
+            <p class="lead">La imagen de tu empresa necesita estar a la altura de los tiempos que corren.</p>
+            <p class="lead"> <b>Estamos aquí para ayudarte a lograrlo.</b></p>
+          </div>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="#comenzar"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">COMENZAR</button></a>
+          </div>
+        </div>
+        <div class="col-5 d-none d-xl-block">
+          <img src="./assets/img/agencia-digital-circle-1.png" alt="">
+        </div>
+      </div>
+    </header>
+
+    <main id="quienes-somos">
+      <div class="row bloque-presentacion" >
+        <div class="col-12 col-xl-6 text-center d-flex align-items-center justify-content-center bloque-presentacion-izquierda">
+          <h1 class="display-6 fw-bold text-light">¿QUIÉNES SOMOS?</h1>
+        </div>
+        <div class="row col-12 col-xl-6 d-flex align-items-center text-center bloque-presentacion-derecha">
+            <p class="lead">MVD Creative Studio nace en el año 2017 como proyecto individual de Martín Santamaria, actual CEO de la empresa.</p>
+            <p class="lead">Luego de completar sus estudios en la carrera de Edición y Postproducción Audiovisual, decide crear <b>MVD Creative Studio</b>, una empresa que en sus comienzos se dedicaba exclusivamente a la creación y edición de material audiovisual.</p>
+            <p class="lead">Con el pasar del tiempo, los servicios brindados se fueron expandiendo, así como también se fue sumando personas capacitadas en diferentes especialidades, llegando a cubrir hoy en día las áreas de <b>Marketing Digital, Branding, Programación, Diseño Web, SEO, Diseño Gráfico y más.</b></p>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="col-12 fw-bold text-center pt-5 pb-5">¿QUÉ OPINAN NUESTROS CLIENTES?</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="widget-container">
+                    <div class="widget">
+                        <div class="profile-card">
+                            <div class="card-header">
+                                <div class="header-avatar">
+                                    <img src="./assets/img/chelato-foto.png" alt="andy">
+                                </div>
+                                <div class="header-name">
+                                    Nicolás Baladón
+                                </div>
+                            </div>
+                            <div class="card-body bg-warning">
+                                <div class="body-description">
+                                  Hace años que confiamos nuestra presencia online a MVD Creative Studio. Siempre dispuestos a ayudarnos y mejorar.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="footer-social">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-dribbble"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="widget-container">
+                    <div class="widget">
+                        <div class="profile-card">
+                            <div class="card-header">
+                                <div class="header-avatar">
+                                    <img src="./assets/img/chelato-foto.png" alt="claudio">
+                                </div>
+                                <div class="header-name">
+                                    Caludio Morrison
+                                </div>
+                            </div>
+                            <div class="card-body bg-primary">
+                                <div class="body-description">
+                                  Hace años que confiamos nuestra presencia online a MVD Creative Studio. Siempre dispuestos a ayudarnos y mejorar.
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="footer-social">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-dribbble"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="widget-container">
+                    <div class="widget">
+                        <div class="profile-card">
+                            <div class="card-header">
+                                <div class="header-avatar">
+                                    <img src="./assets/img/chelato-foto.png" alt="anna">
+                                </div>
+                                <div class="header-name">
+                                    Markez Chan
+                                </div>
+                            </div>
+                            <div class="card-body bg-info">
+                                <div class="body-description">
+                                  Hace años que confiamos nuestra presencia online a MVD Creative Studio. Siempre dispuestos a ayudarnos y mejorar
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="footer-social">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-dribbble"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <a href="">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+
+      <div class="contacto row col-12 justify-content-center pb-5">
+        <h1 class="col-12 fw-bold text-center">CONTACTO</h1>
+        <div class="row col-10 col-xl-6 justify-content-center pt-5">
+          <form class="row justify-content-evenly">
+            <div class="col-md-6 p-1">
+              <label for="inputLastname4" class="form-label">Nombre</label>
+              <input type="nombre" class="form-control" id="inputName4">
+            </div>
+            <div class="col-md-6 p-1">
+              <label for="inputLastname4" class="form-label">Apellido</label>
+              <input type="apellido" class="form-control" id="inputLastname4">
+            </div>
+            <div class="col-12 p-1">
+              <label for="inputEmail" class="form-label">Correo Electrónico</label>
+              <input type="text" class="form-control" id="inputEmail" placeholder="sunombre@suempresa.com.uy">
+            </div>
+            <div class="col-md-12 p-1">
+              <label for="inputState" class="form-label">País</label>
+              <select id="inputState" class="form-select">
+                <option selected>Uruguay</option>
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Bolivia</option>
+                <option>Paraguay</option>
+              </select>
+            </div>
+            <div class="form-floating col-12 p-1 m-2 mb-5">
+              <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea2" style="height: 150px"></textarea>
+              <label for="floatingTextarea2">Mensaje</label>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-primary w-50">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+      <div class="row footer-entero justify-content-between">
+        <div class="col-9 col-xl-4 d-flex align-items-center">
+          <p class="lead">Hecho con ♥ por <b>MVD Creative Studio</b></p>
+        </div>
+        <div class="col-2 col-xl-4 d-flex justify-content-end align-items-center">
+          <img class="redes" src="./assets/img/Instagram.png" alt="">
+          <a href="#top"><img class="redes" src="./assets/img/14212.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

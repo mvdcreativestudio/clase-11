@@ -1,0 +1,346 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* NAVEGADOR */
+
+.nav-logo {
+    width: 25%;
+    max-width: 150px;
+}
+
+.navbar-nav, .mr-auto {
+    flex: 1;
+    justify-content: end;
+}
+
+/* HEADER */
+
+@media (max-width: 1200px) {
+    .contenedor-header {
+        min-height: 500px;
+    }
+}
+
+header {
+    background-color: #EEEEEE;
+}
+
+
+/* BODY */
+
+/* ASIDE */
+
+/* INDEX */
+
+/* QUIENES SOMOS */
+
+.bloque-presentacion-izquierda {
+    background-color: #0b5ed7;
+    height: 80px;
+}
+
+@media (min-width: 1200px) {
+
+    .bloque-presentacion-izquierda {
+        min-height: 500px;
+        height: auto;
+        background-color: #0b5ed7;
+}
+}
+
+ 
+.bloque-presentacion-derecha {
+    min-height: 500px;
+    padding: 25px;
+    text-align: center;
+}
+
+/* SERVICIOS */
+
+.contenedor-de-servicios {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+@media (min-width: 760px) {
+    .card-text {
+        height: 150px;
+    }
+}
+
+/* ÁREA DE CLIENTES */
+
+.iniciar-sesion-contenedor {
+    padding-top: 70px;
+    min-height: 500px;
+}
+
+.iniciar-sesion {
+    padding: 25px;
+    background-color: #EEEEEE;
+}
+
+/* CONTACTO */
+
+.contacto {
+    padding-top: 70px;
+    min-height: 500px;
+    background-color: #EEEEEE;
+}
+
+/* OPINIONES CLIENTES */
+
+
+.widget-container {
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    margin-bottom: 30px
+}
+
+.widget-container .widget {
+    margin-bottom: 0
+}
+
+.widget-container>.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important
+}
+
+.widget-container>.row>[class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.widget {
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    background-color: #fff;
+    font-weight: 300;
+    margin-bottom: 30px;
+    position: relative;
+    vertical-align: middle
+}
+
+.widget .row {
+    font-size: 0;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.widget .row:before {
+    display: none
+}
+
+.widget .row .col {
+    font-size: 11px
+}
+
+.widget .row .col:first-child {
+    -webkit-border-radius: 2px 0 0 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px 0 0 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px 0 0 2px;
+    background-clip: padding-box
+}
+
+.widget .row .col:last-child {
+    -webkit-border-radius: 0 2px 2px 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 2px 2px 0;
+    -moz-background-clip: padding;
+    border-radius: 0 2px 2px 0;
+    background-clip: padding-box
+}
+
+.widget .col {
+    display: inline-block;
+    vertical-align: top
+}
+
+.widget [class*=col-] {
+    font-size: 11px;
+    margin: 0;
+    padding: 0
+}
+
+.widget .widget-stat {
+    position: absolute
+}
+
+.widget .widget-stat.top {
+    top: 7px
+}
+
+.widget .widget-stat.right {
+    right: 10px
+}
+
+.widget .widget-stat.left {
+    left: 10px
+}
+
+.widget .widget-stat.bottom {
+    bottom: 7px
+}
+
+.widget .widget-stat strong,
+.widget .widget-stat span,
+.widget .widget-stat i,
+.widget .widget-stat div {
+    vertical-align: top
+}
+
+.widget .progress {
+    margin-bottom: 0
+}
+
+.profile-card .card-header .header-avatar {
+    text-align: center
+}
+
+.profile-card .card-header .header-avatar img {
+    margin: 25px 0 15px;
+    width: 128px;
+    height: 128px
+}
+
+.profile-card .card-header .header-name {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center
+}
+
+.profile-card .card-body {
+    margin-left: 10px;
+    margin-top: 30px;
+    min-height: 100px;
+    padding: 50px 20px
+}
+
+.profile-card .card-body .body-description {
+
+    color: #fff;
+    font-size: 13px
+}
+
+.profile-card .card-footer {
+    margin-top: 50px;
+    padding: 10px 0 20px
+}
+
+.profile-card .card-footer .footer-social {
+    text-align: center
+}
+
+.profile-card .card-footer .footer-social .row {
+    margin: 0
+}
+
+.profile-card .card-footer .footer-social i {
+    color: #292929;
+    font-size: 20px
+}
+
+.bg-primary {
+    background-color: #0b5ed7 !important;
+    color: #fff !important
+}
+
+.bg-success {
+    background-color: #0b5ed7 !important;
+    color: #fff !important
+}
+
+.bg-info {
+    background-color: #0b5ed7 !important;
+    color: #fff !important
+}
+
+.bg-warning {
+    background-color: #0b5ed7 !important;
+    color: #fff !important
+}
+
+.bg-danger {
+    background-color: #cd4237 !important;
+    color: #fff !important
+}
+
+.bg-inverse {
+    background-color: #fefefe !important;
+    color: #292929 !important
+}
+
+.bg-white {
+    background-color: #fff !important;
+    color: #292929 !important
+}
+
+.bg-transparent {
+    background-color: transparent !important
+}
+
+.bg-body {
+    background-color: #f1f3f2 !important
+}
+
+.bg-highlight {
+    background-color: #ff8
+}
+
+.bg-default-darker {
+    background-color: #212121
+}
+
+/* FOOTER */
+
+.footer-entero {
+    height: 100px;
+    background-color: #212529;
+    color: white;
+    padding: 25px;
+}
+
+.footer-entero .lead {
+    font-size: 14px;
+}
+
+.redes {
+    max-width: 25px;
+    max-height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* BOOTSTRAP */
+
+.row {
+    --bs-gutter-x: 0px;
+}
+
+.card-img-top {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-bottom: 20px;
+}
+
+.active {
+    font-weight: bold;
+}
